@@ -1,4 +1,3 @@
-include thompson/drawing/*.tpl
-include thompson/drawing/*.aut
-include thompson/drawing/*.css
-include thompson/examples/**/*.aut
+recursive-include thompson/drawing *.tpl *.css
+recursive-include thompson *.aut
+include thompson/examples/aliases.txt
