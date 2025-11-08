@@ -1,0 +1,4 @@
+include thompson/drawing/*.tpl
+include thompson/drawing/*.aut
+include thompson/drawing/*.css
+include thompson/examples/**/*.aut

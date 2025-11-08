@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["thompson", "thompson.drawing", "thompson.examples"]
+
+[project]
+name = "thompson"
+version = "0.0.1"
+dependencies = [
+  "networkx==1.9",
+  "Jinja2==3.1.6"
+]
+requires-python = ">=3.8"
+authors = [
+  {name="Nathan Barker"},
+  {name="Andrew Duncan"},
+  {name="David Robertson"}
+]
+maintainers = [
+  {name="Reinis Cirpons", email="reinis.cirpons@inria.fr"}
+]
+description = "A package for computing with with elements of the Higman-Thompson groups G_{n,r}."
+readme = "README.md"
+keywords = ["group theory", "Higman-Thompson group"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/DMRobertson/thompsons_v"
+Documentation = "https://thompsons-v.readthedocs.io"
